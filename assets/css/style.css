@@ -271,13 +271,13 @@
 }
 
 .footer {
-  background-color: #f76ab4;
-  color: #FFF;
+  background-color: #ffffff;
+  color: #000000;
   padding: 35px 0;
 }
 .footer_scroller {
-  border-top: 1px solid #FFF;
-  border-left: 1px solid #FFF;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
   width: 28px;
   height: 28px;
   display: block;
@@ -319,6 +319,7 @@ body {
   height: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
+  background: linear-gradient(to right, rgb(236, 59, 41) 0%, rgb(219, 36, 118) 100%);
 }
 
 div,
@@ -330,6 +331,10 @@ section {
 
 *:focus {
   outline: none;
+}
+
+.article_img {
+  width: 100%;
 }
 
 p {
