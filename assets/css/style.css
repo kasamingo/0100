@@ -310,7 +310,7 @@
 
 html {
   font-size: 62.5% !important;
-  font-family: serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   height: 100%;
   -webkit-overflow-scrolling: touch;
 }
@@ -319,7 +319,7 @@ body {
   height: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  background: linear-gradient(to right, rgb(236, 59, 41) 0%, rgb(219, 36, 118) 100%);
+  background: linear-gradient(to right, rgb(240, 118, 104) 0%, rgb(243, 109, 169) 100%);
 }
 
 div,
